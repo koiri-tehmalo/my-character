@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #7f8185;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+.footer {
+background-color: #f1f1f1;
+padding: 10px;
+text-align: center;
+}
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: DodgerBlue;
+}
+.flex-container > div {
+background-color: #f1f1f1;
+width: 12rem;
+margin: 10px;
+text-align: center;
+line-height: 18px;
+font-size: 16px;
+border-radius: 15px; /* ทำให้ขอบมน ถ้าไม่ชอบเอาออกได้ */
+
+}
+.card-img-top {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 50%; /* ทำให้ขอบมน ถ้าไม่ชอบเอาออกได้และสามทำไห้เป็นวงกลมได้ */
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเล็กน้อยให้ภาพดูเด่นขึ้น */
+}
+.card-title {
+  font-family: 'Mitr	', sans-serif;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333; /* เปลี่ยนสีข้อความให้เข้มขึ้น */
+  
 }
